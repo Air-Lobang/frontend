@@ -20,7 +20,7 @@ const initialState = {
   angular: false,
 };
 
-export default function registrationPage() {
+export default function RegistrationPage() {
   const [state, setState] = React.useState(initialState);
   return (
     <SafeAreaView style={styles.container}>
